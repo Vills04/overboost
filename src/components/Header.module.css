@@ -1,0 +1,148 @@
+.header { 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: black;
+  }
+
+.section{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+  
+.logo img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+}
+  
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+  
+.navList li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+}
+  
+.navList li a:hover {
+    border-bottom: 2px solid white;
+}
+  
+.btn a {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 250px;
+}
+  
+.btn a:hover {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: 0.4s;
+}
+  
+.barraBusqueda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.barraBusqueda input {
+    padding: 8px 35px 8px 15px;
+    font-size: 14px;
+    border: 1px solid #f5dca8;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 180px;
+}
+
+.barra_busqueda input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.busqueda_icon {
+    position: relative;
+    right: 35px;
+    width: 18px;
+    height: 18px;
+    filter: invert(1);
+    cursor: pointer;
+}
+  
+.dropdown {
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+  
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    background: transparent;
+    padding: 10px 0;
+}
+  
+.dropdown:hover .dropdownMenu {
+    display: block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+  /*CARRITO DE COMPRAS*/
+.carrito {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.userMenu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.userMenu span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.logoutBtn {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 2px 5px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.logoutBtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+}

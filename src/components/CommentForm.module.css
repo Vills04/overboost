@@ -1,0 +1,66 @@
+/* src/components/CommentForm.module.css */
+
+.commentSection {
+  padding-bottom: 100px;
+  text-align: center;
+}
+  
+.commentSection h2 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+.commentForm {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.formGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+  
+.formGroup label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+  
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+  
+.formGroup textarea {
+    min-height: 100px;
+}
+  
+.submitButton {
+  background-color: #f5dca8;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+.submitButton:hover {
+  color: black;
+  background: white;
+  border: 1px solid #f5dca8;
+  transition: .5s;
+}
+  

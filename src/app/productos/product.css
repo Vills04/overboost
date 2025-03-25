@@ -1,0 +1,124 @@
+/* Contenedor principal centrado */
+.product-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Asegura que se centre bien */
+    padding: 60px 20px;
+}
+
+/* Contenedor del producto */
+.product-content {
+    display: flex;
+    align-items: flex-start; /* Alinea arriba para evitar pegado */
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px; /* Más espacio interno */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    gap: 100px; /* Mayor espacio entre imagen y detalles */
+}
+
+/* Estilo de la imagen */
+.product-image {
+    flex: 1;
+    max-width: 580px; /* Aumenta el tamaño de la imagen */
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Contenedor derecho con detalles */
+.product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* Título del producto */
+.product-details h2 {
+    font-size: 32px;
+    margin-bottom: 30px; /* Aumenta separación */
+}
+
+/* Descripción del producto */
+.product-details p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8; /* Más espacio entre líneas */
+    margin-bottom: 35px; /* Más separación */
+}
+
+/* Precio */
+.product-price {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px; /* Más separación */
+    
+}
+
+/* Botón de agregar al carrito */
+.add-to-cart-btn {
+    background-color: #f5dca8;
+    color: black;
+    padding: 8px 18px; /* Más espacio dentro del botón */
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 120px; /* Más separación del precio */
+}
+
+.add-to-cart-btn:hover {
+    background-color: white;
+    border: 2px solid #f5dca8;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .product-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px; /* Ajuste para móviles */
+        gap: 25px; /* Espacio reducido en mobile */
+    }
+
+    .product-image {
+        max-width: 320px;
+        margin: 0 auto 25px auto;
+    }
+
+    .product-details {
+        padding: 10px;
+    }
+
+    .product-details h2 {
+        font-size: 28px;
+    }
+
+    .product-details p {
+        font-size: 16px;
+    }
+
+    .product-price {
+        font-size: 22px;
+    }
+
+    .add-to-cart-btn {
+        font-size: 16px;
+        padding: 14px 24px;
+    }
+}

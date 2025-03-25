@@ -1,0 +1,94 @@
+/* Estilos para el video de fondo */
+.videoFondo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  /* Contenedor principal del contenido */
+  .content {
+    padding-top: 140px;
+  }
+  
+  /* Estilos para el bloque de texto principal */
+  .textoPrincipal {
+    padding-left: 35px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  /* Estilo para el encabezado del texto principal */
+  .textoPrincipal h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Estilo para la imagen del logo */
+  .textoPrincipal img {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Estilos para el párrafo principal */
+  .textoPrincipal p {
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: left;
+    text-align: justify;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Estilos para los enlaces */
+  .textoPrincipal a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Efecto hover en los enlaces */
+  .textoPrincipal a:hover {
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: white;
+    transition: .5s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo específico para el enlace 'Apartar' */
+  .textoPrincipal a.cta {
+    border: 1px solid #f5dca8;
+    color: white;
+    background: transparent;
+    margin-left: 20px;
+  }
+  
+  /* Efecto hover en el enlace 'Apartar' */
+  .textoPrincipal a.cta:hover {
+    color: black;
+    background: white;
+    border: 1px solid white;
+    transition: .5s;
+  }
+  
